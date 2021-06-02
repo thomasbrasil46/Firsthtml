@@ -1,9 +1,29 @@
-body {
-    background: #ccc;
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(pimg1.jpg);
+    min-height: 100%;
+}
+
+.pimg1 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .subtitle, .post_title {
-    color: blue;
+    color: #505050;
 }
 
 .post_title {
@@ -14,17 +34,23 @@ body {
 }
 
 .title {
-    color: blue;
+    color: crimson;
 }
 
 .post {
     background: #fff;
-    padding: 15px;
-    border: 3px solid #000;
+    padding: 0 250px 0 250px;
+    border: 3px solid #505050;
+    margin-top: 0;
     margin-bottom: 15px;
+    border-radius: 5px 10px 5px 10px;
 }
 
 .post_content {
     margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
     margin-bottom: 15px;
 }
